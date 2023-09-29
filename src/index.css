@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+  .wrapper{
+    @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+  }
+
+  .button{
+    @apply bg-[#4A8549] text-white font-bold hover:bg-[#4a8549e1] block w-max py-3 px-12 rounded-full;
+  }
+
+  .buttonNumber{
+    @apply w-12 h-12 hover:bg-[#4a8549e1] hover:text-[#fff] rounded-md border border-zinc-200 text-zinc-900 bg-white shadow-sm dark:border-zinc-800 dark:bg-zinc-950 dark:text-zinc-50;
+  }
+
+}
